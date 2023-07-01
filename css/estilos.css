@@ -163,7 +163,7 @@ main{
  align-content: flex-start;
  width: 700px;
  height: 600px;
- margin-left: 70px;
+ margin-left: 20px;
 }
 
 main article{
@@ -503,6 +503,14 @@ section div{
       body{
        max-width: 990px; 
       }
+      
+      header nav ul li a{
+       font-size:10px ; 
+      }
+
+      #inicio{
+       font-size: 12px; 
+      }
 
       .wasap{
        display: none; 
@@ -536,7 +544,7 @@ section div{
        }
 
        footer{
-        font-size: 7px;
+        font-size: 8px;
        }
 
       article h3{
