@@ -524,6 +524,11 @@ section div{
         font-size: 8px;
        }
 
+      article h3{
+       font-size: 15px;
+       font-weight: bolder; 
+      }
+
        article button{
         margin-left: 40px;
         width: 80px;
@@ -531,7 +536,7 @@ section div{
        }
 
        footer{
-        font-size: 9px;
+        font-size: 7px;
        }
 
       article h3{
@@ -596,7 +601,11 @@ section div{
        }
 
        .imgprod{
-        min-width: 60px;   
+        min-width: 80px;   
       }
   
+      .redes{
+       width: 25px; 
+      }
+
       }
