@@ -163,6 +163,7 @@ main{
  align-content: flex-start;
  width: 700px;
  height: 600px;
+ margin-left: 70px;
 }
 
 main article{
@@ -360,6 +361,7 @@ main article button{
  width: 300px;
  margin-left: 10px;
  margin-top: 80px;
+
 }
 
 #cartboton{
@@ -472,8 +474,9 @@ section div{
 
 
    @media  (min-device-width:901px){
+    
     #homemds{
-     font-size: 1.6vw;   
+     font-size: 1.3vw;   
     }
 
     #publicidad{
@@ -488,9 +491,18 @@ section div{
      width:300px;
     }
 
+    .imgprod{
+      min-width: 160px;   
+    }
+
+
    }
 
    @media (max-device-width: 900px){
+
+      body{
+       max-width: 990px; 
+      }
 
       .wasap{
        display: none; 
@@ -519,7 +531,7 @@ section div{
        }
 
        footer{
-        font-size: 10px;
+        font-size: 9px;
        }
 
       article h3{
@@ -582,4 +594,9 @@ section div{
        #fondo{
         height:450px;
        }
+
+       .imgprod{
+        min-width: 60px;   
+      }
+  
       }
