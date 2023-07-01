@@ -492,6 +492,10 @@ section div{
 
    @media (max-device-width: 900px){
 
+      .wasap{
+       display: none; 
+      }
+  
       main div span{
         display: none;
        }
@@ -518,6 +522,10 @@ section div{
         font-size: 10px;
        }
 
+      article h3{
+       width: 15px; 
+      }
+ 
        #divnos{
         margin-top: 200px;
         margin-bottom: 200px;
