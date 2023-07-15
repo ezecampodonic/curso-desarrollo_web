@@ -1,0 +1,45 @@
+
+/* inicio cesion */
+#fondoinicio {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/fotoinicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .fondoform {
+    background-color: rgba(45, 27, 3, 0.601);
+    margin: 8% 25%;
+    height: 70%;
+  }
+  
+  .iniciobot {
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 166, 0, 0.745);
+    font-weight: bolder;
+    font-size: 17px;
+  }
+  
+  main form button {
+    align-self: center;
+  }
+  
+  #isection {
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  main section p {
+    font-size: 30px;
+  }
+  
+  main section a button {
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 166, 0, 0.745);
+    font-weight: bolder;
+    font-size: 17px;
+  }

@@ -1,0 +1,51 @@
+
+/* carrito */
+#maincart {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 35px 300px 50px 200px;
+    grid-template-areas: "h2 h2 h2" ". span aside" ". button aside" ". none .";
+  }
+  
+  #maincart > h2 {
+    grid-area: h2;
+    height: 35px;
+  }
+  
+  #maincart > span {
+    grid-area: span;
+  }
+  
+  #maincart > a {
+    grid-area: button;
+  }
+  
+  #maincart > aside {
+    grid-area: aside;
+  }
+  
+  #publicidad {
+    height: 600px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 80px;
+  }
+  
+  #cartboton {
+    margin-left: 15%;
+    margin-top: 0px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(165, 79, 42);
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  #cspan {
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  

@@ -1,0 +1,112 @@
+
+@media (min-device-width: 901px) {
+    #homemds {
+      font-size: 1.3vw;
+    }
+    #publicidad {
+      height: 400px;
+      width: 150px;
+      margin-bottom: 70px;
+    }
+    #cspan {
+      margin-left: 100px;
+      width: 300px;
+    }
+    .imgprod {
+      min-width: 160px;
+    }
+  }
+  @media (max-device-width: 900px) {
+    body {
+      max-width: 990px;
+    }
+    header nav ul li a {
+      font-size: 10px;
+    }
+    #inicio {
+      font-size: 12px;
+    }
+    .wasap {
+      display: none;
+    }
+    main div span {
+      display: none;
+    }
+    #video {
+      margin: 10%;
+      height: 600px;
+      width: 800px;
+    }
+    main article span {
+      display: none;
+    }
+    main article button {
+      font-size: 8px;
+    }
+    article h3 {
+      font-size: 15px;
+      font-weight: bolder;
+      width: 15px;
+    }
+    article button {
+      margin-left: 40px;
+      width: 80px;
+    }
+    footer {
+      font-size: 8px;
+    }
+    #divnos {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      width: 350px;
+      font-size: 10px;
+    }
+    #publicidad {
+      height: 400px;
+      width: 60px;
+    }
+    #cspan {
+      font-size: 15px;
+      align-self: center;
+      margin-left: 50px;
+    }
+    main form, form h2, main form section p, main form section a button, main form button {
+      font-size: 13px;
+    }
+    main form input {
+      width: 150px;
+      height: 20px;
+    }
+    .iniciobot {
+      height: 20px;
+      width: 150px;
+      font-size: 12px;
+    }
+    main form section a button {
+      height: 20px;
+      width: 150px;
+      font-size: 12px;
+    }
+    main form button {
+      height: 50px;
+      width: 50px;
+    }
+    main section p {
+      color: #fff;
+    }
+    main form {
+      margin-top: 200px;
+    }
+    #fondo {
+      height: 450px;
+    }
+    .imgprod {
+      min-width: 80px;
+    }
+    .redes {
+      width: 25px;
+    }
+  }
+  
+  /*# sourceMappingURL=estilos.css.map */
+  
