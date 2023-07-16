@@ -1,0 +1,556 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "mystery quest";
+  src: url(../fonts/magic_bright_serif/Magic\ Bright\ Script\ Light.otf);
+}
+.a {
+  margin-top: 200px;
+}
+
+/* barra nav */
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: end;
+  width: 100%;
+  top: 0;
+}
+header nav {
+  background-color: rgb(204, 131, 71);
+  position: sticky;
+  top: 0;
+  height: 74px;
+  z-index: 1;
+}
+header nav .logo {
+  width: 15%;
+  height: 73px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+header nav a #inicio {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-items: end;
+  margin-top: 5px;
+}
+header nav ul li {
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(34, 30, 30, 0.931);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  text-align: space-between;
+  min-height: 150px;
+  height: 100%;
+}
+footer span {
+  margin-top: 50px;
+}
+footer .redes {
+  height: 40px;
+  width: 40px;
+}
+footer .espaciado {
+  line-height: 1.9;
+}
+footer .espaciadomedio {
+  line-height: 1.4;
+}
+
+/* carrito */
+#maincart {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 30% 50% 20%;
+  grid-template-rows: 35px 300px 50px 200px;
+  grid-template-areas: "h2 h2 h2" ". span aside" ". button aside" ". none .";
+}
+
+#maincart > h2 {
+  grid-area: h2;
+  height: 35px;
+}
+
+#maincart > span {
+  grid-area: span;
+}
+
+#maincart > a {
+  grid-area: button;
+}
+
+#maincart > aside {
+  grid-area: aside;
+}
+
+#publicidad {
+  height: 600px;
+  width: 300px;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+#cartboton {
+  margin-left: 15%;
+  margin-top: 0px;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: rgb(165, 79, 42);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#cspan {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+/* home */
+#fondomain {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/gif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header section {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 320px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+header section img {
+  height: 500px;
+  width: 10%;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 5s ease;
+  margin-right: 20px;
+}
+
+header section img:hover {
+  cursor: crosshair;
+  width: 345px;
+  height: 520px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+body {
+  background-color: rgb(231, 196, 153);
+  font-size: 21px;
+  font-family: "mistery quest", monospace;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.wasap {
+  position: fixed;
+  top: 94%;
+  left: 96.5%;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 128, 0, 0.372);
+}
+
+main {
+  height: 100%;
+  min-height: 1vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: mistery quest, monospace;
+}
+
+#homemd {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 300px;
+}
+
+#homemds {
+  height: 100%;
+  margin-left: 50px;
+  padding: 30px;
+  width: 700px;
+  height: 600px;
+}
+
+.borde {
+  border: 4px;
+  border-style: ridge;
+  border-radius: 10px;
+  background-color: rgba(165, 99, 42, 0.419);
+}
+
+#video {
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 700px;
+  height: 600px;
+  margin-left: 20px;
+}
+
+main article {
+  height: 400px;
+}
+
+#donde {
+  color: black;
+  background-image: linear-gradient(to right, rgb(255, 234, 0) 50%, brown 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 50px;
+  height: 100px;
+  width: 400px;
+  margin-bottom: 90px;
+  margin-left: 37%;
+  font-size: 25px;
+  transition: background-position 0.5s ease;
+}
+
+#donde:hover {
+  background-position: right;
+  color: white;
+}
+
+/* inicio cesion */
+#fondoinicio {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fotoinicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fondoform {
+  background-color: rgba(45, 27, 3, 0.601);
+  margin: 8% 25%;
+  height: 70%;
+}
+
+.iniciobot {
+  width: 200px;
+  height: 30px;
+  background-color: rgba(255, 166, 0, 0.745);
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+main form button {
+  align-self: center;
+}
+
+#isection {
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+main section p {
+  font-size: 30px;
+}
+main section a button {
+  width: 200px;
+  height: 30px;
+  background-color: rgba(255, 166, 0, 0.745);
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+/* nosotros */
+#divnos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-self: center;
+  color: antiquewhite;
+  background-color: rgba(222, 108, 9, 0.713);
+  width: 900px;
+}
+
+.negrita {
+  font-weight: bolder;
+}
+
+#fondonos {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fondonos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* productos */
+#mainprod {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgprod {
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  display: inline;
+}
+
+.producto {
+  display: flex;
+  flex-direction: row;
+  border: 4px;
+  border-style: ridge;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 100%;
+  max-height: 250px;
+  margin-right: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px;
+}
+
+.botonprod {
+  height: 40px;
+  min-width: 170px;
+  align-items: bottom;
+  align-self: flex-end;
+  background-color: black;
+  color: white;
+  border-radius: 70px;
+  border-color: white;
+}
+
+h2 {
+  background-color: rgba(255, 166, 0, 0.565);
+}
+
+main article h3 {
+  width: 260px;
+}
+main article span {
+  align-self: center;
+  width: 50%;
+  align-self: start;
+  margin-top: 30px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 17px;
+}
+main article p {
+  width: 100px;
+  align-self: end;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 23px;
+}
+main article button {
+  background-color: black;
+  color: burlywood;
+  border-radius: 50px;
+  width: 300px;
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  align-self: end;
+}
+
+/* registro */
+#fondoreg {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fotoreg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+input {
+  width: 320px;
+  text-align: center;
+  align-self: center;
+  padding: 5px;
+  background-color: rgb(222, 184, 135);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+section div {
+  margin-left: 30px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  width: 45%;
+  background-color: rgba(220, 149, 57, 0.909);
+}
+
+#formreg {
+  align-items: center;
+  height: 450px;
+}
+
+#fondo {
+  height: 600px;
+}
+
+@media (min-device-width: 501px) {
+  #homemds {
+    font-size: 1.3vw;
+  }
+  #publicidad {
+    height: 400px;
+    width: 150px;
+    margin-bottom: 70px;
+  }
+  #cspan {
+    margin-left: 100px;
+    width: 300px;
+  }
+  .imgprod {
+    min-width: 160px;
+  }
+}
+@media (max-device-width: 500px) {
+  body header nav ul li a {
+    font-size: 10px;
+  }
+  body main article span {
+    display: none;
+  }
+  body main article button {
+    font-size: 8px;
+  }
+  body main form {
+    margin-top: 200px;
+  }
+  body main form button {
+    height: 50px;
+    width: 50px;
+  }
+  body main form input {
+    width: 150px;
+    height: 20px;
+  }
+  body main form section a button {
+    height: 20px;
+    width: 150px;
+    font-size: 12px;
+  }
+  body main section p {
+    color: #fff;
+  }
+  body article h3 {
+    font-size: 15px;
+    font-weight: bolder;
+    width: 15px;
+  }
+  body article button {
+    margin-left: 40px;
+    width: 80px;
+  }
+  body footer {
+    font-size: 8px;
+  }
+  #inicio {
+    font-size: 10px;
+  }
+  .wasap {
+    display: none;
+  }
+  main div span {
+    display: none;
+  }
+  #video {
+    margin: 10%;
+    height: 600px;
+    width: 800px;
+  }
+  #divnos {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 350px;
+    font-size: 10px;
+  }
+  #publicidad {
+    height: 400px;
+    width: 60px;
+  }
+  #cspan {
+    font-size: 15px;
+    align-self: center;
+    margin-left: 50px;
+  }
+  .iniciobot {
+    height: 20px;
+    width: 150px;
+    font-size: 12px;
+  }
+  #fondo {
+    height: 450px;
+  }
+  .imgprod {
+    min-width: 80px;
+  }
+  .redes {
+    width: 25px;
+  }
+}
+main form, form h2, main form section p, main form section a button, main form button {
+  font-size: 13px;
+}
+
+
+
+/*# sourceMappingURL=estilos.css.map */

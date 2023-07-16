@@ -25,16 +25,17 @@
     width: 100%;
     height: 100%;
     margin-top: 70px;
+    div {
+      margin-left: 30px;
+      justify-content: flex-end;
+      align-items: flex-end;
+      height: 100%;
+      width: 45%;
+      background-color: rgba(220, 149, 57, 0.909);
+    }
   }
   
-  section div {
-    margin-left: 30px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 100%;
-    width: 45%;
-    background-color: rgba(220, 149, 57, 0.909);
-  }
+  
   
   #formreg {
     align-items: center;
@@ -45,20 +46,4 @@
     height: 600px;
   }
   
-  @media (min-device-width: 901px) {
-    #homemds {
-      font-size: 1.3vw;
-    }
-    #publicidad {
-      height: 400px;
-      width: 150px;
-      margin-bottom: 70px;
-    }
-    #cspan {
-      margin-left: 100px;
-      width: 300px;
-    }
-    .imgprod {
-      min-width: 160px;
-    }
-  }
+  

@@ -7,7 +7,7 @@
     grid-template-columns: 30% 50% 20%;
     grid-template-rows: 35px 300px 50px 200px;
     grid-template-areas: "h2 h2 h2" ". span aside" ". button aside" ". none .";
-  }
+}
   
   #maincart > h2 {
     grid-area: h2;
@@ -48,4 +48,3 @@
     margin-top: 20px;
     font-weight: bolder;
   }
-  

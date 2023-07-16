@@ -42,35 +42,34 @@
     background-color: rgba(255, 166, 0, 0.565);
   }
   
-  main article h3 {
-    width: 260px;
-  }
-  
-  main article span {
-    align-self: center;
-    width: 50%;
-    align-self: start;
-    margin-top: 30px;
-    line-height: 2;
-    font-weight: 500;
-    font-size: 17px;
-  }
-  
-  main article p {
-    width: 100px;
-    align-self: end;
-    margin-bottom: 60px;
-    font-weight: bold;
-    font-size: 23px;
-  }
-  
-  main article button {
-    background-color: black;
-    color: burlywood;
-    border-radius: 50px;
-    width: 300px;
-    font-size: 15px;
-    height: 50px;
-    width: 200px;
-    align-self: end;
+  main article{
+    h3 {
+     width: 260px;
+    }
+    span {
+     align-self: center;
+     width: 50%;
+     align-self: start;
+     margin-top: 30px;
+     line-height: 2;
+     font-weight: 500;
+     font-size: 17px;
+    }
+    p{
+     width: 100px;
+     align-self: end;
+     margin-bottom: 60px;
+     font-weight: bold;
+     font-size: 23px;
+    }
+    button {
+     background-color: black;
+     color: burlywood;
+     border-radius: 50px;
+     width: 300px;
+     font-size: 15px;
+     height: 50px;
+     width: 200px;
+     align-self: end;
+    }
   }

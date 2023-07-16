@@ -1,5 +1,5 @@
 
-@media (min-device-width: 901px) {
+@media (min-device-width: 501px) {
     #homemds {
       font-size: 1.3vw;
     }
@@ -16,15 +16,61 @@
       min-width: 160px;
     }
   }
-  @media (max-device-width: 900px) {
+
+  @media (max-device-width: 500px) {
     body {
-      max-width: 990px;
+        header nav ul li a {
+         font-size: 10px;
+        }
+       main article{
+        span {
+        display: none;
+      }
+       button {
+        font-size: 8px;
+      }
+    } 
+      main form {
+        margin-top: 200px;
+         button {
+          height: 50px;
+          width: 50px;
+         }
+          input {
+           width: 150px;
+           height: 20px;
+          }
+         
+         section a button {
+          height: 20px;
+          width: 150px;
+          font-size: 12px;
+         }
+      
+      }
+      
+      main section p {
+        color: #fff;
+      }
+      
+      article{
+       h3 {
+        font-size: 15px;
+        font-weight: bolder;
+        width: 15px;
+       }
+       button {
+        margin-left: 40px;
+        width: 80px;
+       }
+      }
+      footer {
+        font-size: 8px;
+      }
     }
-    header nav ul li a {
-      font-size: 10px;
-    }
+   
     #inicio {
-      font-size: 12px;
+      font-size: 10px;
     }
     .wasap {
       display: none;
@@ -37,24 +83,8 @@
       height: 600px;
       width: 800px;
     }
-    main article span {
-      display: none;
-    }
-    main article button {
-      font-size: 8px;
-    }
-    article h3 {
-      font-size: 15px;
-      font-weight: bolder;
-      width: 15px;
-    }
-    article button {
-      margin-left: 40px;
-      width: 80px;
-    }
-    footer {
-      font-size: 8px;
-    }
+   
+   
     #divnos {
       margin-top: 200px;
       margin-bottom: 200px;
@@ -70,33 +100,14 @@
       align-self: center;
       margin-left: 50px;
     }
-    main form, form h2, main form section p, main form section a button, main form button {
-      font-size: 13px;
-    }
-    main form input {
-      width: 150px;
-      height: 20px;
-    }
+   
     .iniciobot {
       height: 20px;
       width: 150px;
       font-size: 12px;
     }
-    main form section a button {
-      height: 20px;
-      width: 150px;
-      font-size: 12px;
-    }
-    main form button {
-      height: 50px;
-      width: 50px;
-    }
-    main section p {
-      color: #fff;
-    }
-    main form {
-      margin-top: 200px;
-    }
+
+  
     #fondo {
       height: 450px;
     }
@@ -106,7 +117,12 @@
     .redes {
       width: 25px;
     }
+  
   }
+
+  main form, form h2, main form section p, main form section a button, main form button {
+    font-size: 13px;
+   }
   
   /*# sourceMappingURL=estilos.css.map */
   
