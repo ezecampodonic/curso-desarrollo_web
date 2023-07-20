@@ -110,11 +110,7 @@ main article {
   margin-left: 37%;
   font-size: 25px;
   transition: background-position 0.5s ease;
-}
-
-#donde:hover {
-  background-position: right;
-  color: white;
+  margin-right: 100px;
 }
 
 /*# sourceMappingURL=index.css.map */

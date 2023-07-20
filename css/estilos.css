@@ -29,8 +29,6 @@ header nav {
   z-index: 1;
 }
 header nav .logo {
-  width: 15%;
-  height: 73px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -253,11 +251,7 @@ main article {
   margin-left: 37%;
   font-size: 25px;
   transition: background-position 0.5s ease;
-}
-
-#donde:hover {
-  background-position: right;
-  color: white;
+  margin-right: 100px;
 }
 
 /* inicio cesion */
@@ -446,13 +440,16 @@ section div {
 }
 
 @media (min-device-width: 501px) {
+  main {
+    min-height: 800px;
+  }
   #homemds {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
   #publicidad {
-    height: 400px;
-    width: 150px;
-    margin-bottom: 70px;
+    height: 500px;
+    width: 180px;
+    margin-bottom: 170px;
   }
   #cspan {
     margin-left: 100px;
@@ -461,8 +458,16 @@ section div {
   .imgprod {
     min-width: 160px;
   }
+  .logo {
+    height: 75px;
+    width: 220px;
+  }
 }
 @media (max-device-width: 500px) {
+  body header img {
+    height: 300px;
+    box-shadow: inset;
+  }
   body header nav ul li a {
     font-size: 10px;
   }
@@ -473,7 +478,8 @@ section div {
     font-size: 8px;
   }
   body main form {
-    margin-top: 200px;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
   }
   body main form button {
     height: 50px;
@@ -488,6 +494,10 @@ section div {
     width: 150px;
     font-size: 12px;
   }
+  body main form section input {
+    height: 30px;
+    width: 300px;
+  }
   body main section p {
     color: #fff;
   }
@@ -501,7 +511,15 @@ section div {
     width: 80px;
   }
   body footer {
-    font-size: 8px;
+    font-size: 10px;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  body footer span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
   }
   #inicio {
     font-size: 10px;
@@ -514,8 +532,8 @@ section div {
   }
   #video {
     margin: 10%;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 600px;
   }
   #divnos {
     margin-top: 200px;
@@ -535,7 +553,7 @@ section div {
   .iniciobot {
     height: 20px;
     width: 150px;
-    font-size: 12px;
+    font-size: 10px;
   }
   #fondo {
     height: 450px;
@@ -544,7 +562,16 @@ section div {
     min-width: 80px;
   }
   .redes {
-    width: 25px;
+    width: 10px;
+    height: 10px;
+  }
+  #donde {
+    height: 100px;
+    width: 250px;
+  }
+  .logo {
+    height: 75px;
+    width: 100px;
   }
 }
 main form, form h2, main form section p, main form section a button, main form button {
