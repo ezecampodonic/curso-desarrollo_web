@@ -440,6 +440,9 @@ section div {
 }
 
 @media (min-device-width: 501px) {
+  header img {
+    height: 700px;
+  }
   main {
     min-height: 800px;
   }
@@ -568,6 +571,7 @@ section div {
   #donde {
     height: 100px;
     width: 250px;
+    margin-left: 71px;
   }
   .logo {
     height: 75px;
@@ -576,6 +580,11 @@ section div {
 }
 main form, form h2, main form section p, main form section a button, main form button {
   font-size: 13px;
+}
+
+main form section p {
+  font-size: 20px;
+  color: white;
 }
 
 
