@@ -498,8 +498,9 @@ section div {
     font-size: 12px;
   }
   body main form section input {
-    height: 30px;
-    width: 300px;
+    height: 20px;
+    width: 150px;
+    font-size: 6px;
   }
   body main section p {
     color: #fff;
