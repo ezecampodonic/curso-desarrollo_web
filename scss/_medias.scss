@@ -1,5 +1,5 @@
 
-@media (min-device-width: 501px) {
+@media (min-device-width: 640px) {
     header img{
      height: 700px; 
     }  
@@ -29,12 +29,10 @@
      width: 220px;
     }
 
-    main form, form h2, main form section p, main form section a button, main form button {
-      font-size: 14px;
-     }
+
   }
 
-  @media (max-device-width: 500px) {
+  @media (max-device-width: 480px) {
     body {
         header{
          img{
@@ -116,8 +114,8 @@
     }
     #video {
       margin: 10%;
-      height: 400px;
-      width: 600px;
+      height: 200px;
+      width: 50%;
     }
    
    
@@ -167,15 +165,17 @@
       width: 100px;
      }
 
+     main form, form h2, main form section p, main form section a button, main form button {
+      font-size: 13px;
+     }
+     main form section p{
+      font-size: 20px;
+      color: white;
+     }
+    
   }
 
-  main form, form h2, main form section p, main form section a button, main form button {
-    font-size: 13px;
-   }
-   main form section p{
-    font-size: 20px;
-    color: white;
-   }
+  
   
   /*# sourceMappingURL=estilos.css.map */
   
