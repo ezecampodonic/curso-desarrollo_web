@@ -35,6 +35,17 @@
   @media (max-device-width: 480px) {
     body {
         header{
+         
+  .carrusel-contenedor{
+    height:400px;
+    width: 80%;
+    align-self: center;
+   }
+   
+   .img-contenedor{
+    height: 400px;
+   } 
+  
          img{
           height: 300px;
           box-shadow: inset;

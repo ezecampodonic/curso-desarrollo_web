@@ -23,11 +23,24 @@
   width: 100%;
   top: 0;   
       nav {
-      background-color: rgb(190, 154, 125);
+      background-color: rgb(190, 120, 63);
       position: sticky;
       top: 0;
       height: 74px;
       z-index: 1;
+
+      .inicioc:hover{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.502);
+      }
+
+      .nav-link{
+        transition: all 0.2s;
+      }
+
+       .nav-link:hover{
+        border-bottom: 2px solid brown; 
+       }
         .logo {
          background-repeat: no-repeat;
          background-size: cover;
@@ -66,19 +79,24 @@
 /* footer */
 footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     justify-items: center;
     background-color: rgba(34, 30, 30, 0.931);
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: aliceblue;
     font-size: 15px;
-    text-align: space-between;
     min-height: 150px;
     height: 100%;
-     span {
-      margin-top: 50px;
-     }
      
+    span{
+     align-self:center ; 
+     justify-self: center;
+     border-right: 0.5px solid #ffffff99;
+     align-items: center;
+     justify-items: center;
+     width: 40px;
+    }
+
      .redes {
       height: 40px;
       width: 40px;
@@ -92,4 +110,6 @@ footer {
       line-height: 1.4;
     }
 }
+
+
  

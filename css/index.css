@@ -8,6 +8,22 @@
   background-position: center;
 }
 
+header {
+  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(165, 98, 35));
+  z-index: 2;
+}
+
+.carrusel-contenedor {
+  height: 600px;
+  width: 70%;
+  align-self: center;
+  box-shadow: 0 0 10px;
+}
+
+.img-contenedor {
+  height: 600px;
+}
+
 header section {
   display: flex;
   flex-direction: row;

@@ -22,11 +22,21 @@ header {
   top: 0;
 }
 header nav {
-  background-color: rgb(204, 131, 71);
+  background-color: rgb(190, 120, 63);
   position: sticky;
   top: 0;
   height: 74px;
   z-index: 1;
+}
+header nav .inicioc:hover {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.502);
+}
+header nav .nav-link {
+  transition: all 0.2s;
+}
+header nav .nav-link:hover {
+  border-bottom: 2px solid brown;
 }
 header nav .logo {
   background-repeat: no-repeat;
@@ -65,18 +75,22 @@ header nav ul li {
 /* footer */
 footer {
   display: flex;
-  justify-content: center;
+  align-items: center;
   justify-items: center;
   background-color: rgba(34, 30, 30, 0.931);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: aliceblue;
   font-size: 15px;
-  text-align: space-between;
   min-height: 150px;
   height: 100%;
 }
 footer span {
-  margin-top: 50px;
+  align-self: center;
+  justify-self: center;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.6);
+  align-items: center;
+  justify-items: center;
+  width: 40px;
 }
 footer .redes {
   height: 40px;
@@ -147,6 +161,22 @@ footer .espaciadomedio {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+header {
+  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(165, 98, 35));
+  z-index: 2;
+}
+
+.carrusel-contenedor {
+  height: 600px;
+  width: 70%;
+  align-self: center;
+  box-shadow: 0 0 10px;
+}
+
+.img-contenedor {
+  height: 600px;
 }
 
 header section {
@@ -258,7 +288,7 @@ main article {
 #fondoinicio {
   height: 100%;
   width: 100%;
-  background-image: url(../img/fotoinicio.jpg);
+  background-image: url(../img/fondoinicio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -288,7 +318,7 @@ main form button {
 }
 
 main section p {
-  font-size: 30px;
+  font-size: 50px;
 }
 main section a button {
   width: 200px;
@@ -439,7 +469,7 @@ section div {
   height: 600px;
 }
 
-@media (min-device-width: 501px) {
+@media (min-device-width: 640px) {
   header img {
     height: 700px;
   }
@@ -466,7 +496,15 @@ section div {
     width: 220px;
   }
 }
-@media (max-device-width: 500px) {
+@media (max-device-width: 480px) {
+  body header .carrusel-contenedor {
+    height: 400px;
+    width: 80%;
+    align-self: center;
+  }
+  body header .img-contenedor {
+    height: 400px;
+  }
   body header img {
     height: 300px;
     box-shadow: inset;
@@ -536,8 +574,8 @@ section div {
   }
   #video {
     margin: 10%;
-    height: 400px;
-    width: 600px;
+    height: 200px;
+    width: 50%;
   }
   #divnos {
     margin-top: 200px;
@@ -578,16 +616,14 @@ section div {
     height: 75px;
     width: 100px;
   }
+  main form, form h2, main form section p, main form section a button, main form button {
+    font-size: 13px;
+  }
+  main form section p {
+    font-size: 20px;
+    color: white;
+  }
 }
-main form, form h2, main form section p, main form section a button, main form button {
-  font-size: 13px;
-}
-
-main form section p {
-  font-size: 20px;
-  color: white;
-}
-
 
 
 /*# sourceMappingURL=estilos.css.map */
