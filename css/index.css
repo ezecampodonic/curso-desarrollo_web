@@ -9,7 +9,7 @@
 }
 
 header {
-  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(165, 98, 35));
+  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(86, 51, 16));
   z-index: 2;
 }
 
@@ -106,7 +106,6 @@ main {
   align-content: flex-start;
   width: 700px;
   height: 600px;
-  margin-left: 20px;
 }
 
 main article {

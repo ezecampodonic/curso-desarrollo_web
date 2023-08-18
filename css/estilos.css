@@ -29,7 +29,7 @@ header nav {
   z-index: 1;
 }
 header nav .inicioc:hover {
-  font-size: 15px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.502);
 }
 header nav .nav-link {
@@ -164,7 +164,7 @@ footer .espaciadomedio {
 }
 
 header {
-  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(165, 98, 35));
+  background: linear-gradient(rgba(255, 157, 0, 0.726), rgb(86, 51, 16));
   z-index: 2;
 }
 
@@ -261,7 +261,6 @@ main {
   align-content: flex-start;
   width: 700px;
   height: 600px;
-  margin-left: 20px;
 }
 
 main article {
@@ -549,7 +548,6 @@ section div {
     width: 15px;
   }
   body article button {
-    margin-left: 40px;
     width: 80px;
   }
   body footer {
@@ -563,18 +561,21 @@ section div {
     margin-bottom: 10px;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
   }
+  #homemds {
+    font-size: 7px;
+    padding: 5px;
+  }
   #inicio {
     font-size: 10px;
   }
   .wasap {
     display: none;
   }
-  main div span {
-    display: none;
+  .main-div {
+    display: row;
   }
   #video {
-    margin: 10%;
-    height: 200px;
+    height: 400px;
     width: 50%;
   }
   #divnos {
@@ -590,7 +591,6 @@ section div {
   #cspan {
     font-size: 15px;
     align-self: center;
-    margin-left: 50px;
   }
   .iniciobot {
     height: 20px;
@@ -609,8 +609,8 @@ section div {
   }
   #donde {
     height: 100px;
-    width: 250px;
-    margin-left: 71px;
+    width: 200px;
+    font-size: 16px;
   }
   .logo {
     height: 75px;
