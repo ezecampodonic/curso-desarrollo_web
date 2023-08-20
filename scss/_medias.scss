@@ -8,6 +8,24 @@
      min-height: 800px; 
     }  
 
+    #donde{
+      align-content: center;
+      justify-content: center;
+      display: block; 
+      font-size: 20px;
+      height: 100px; 
+      width: 300px;
+      background-color: yellow;
+      text-decoration: none;
+      margin-bottom: 200px;
+    }
+
+
+    #p{
+      padding: 35px; 
+    }
+
+
     #homemds {
       font-size: 1.1vw;
     }
@@ -85,7 +103,7 @@
             font-size: 6px;
           }
       }
-      
+
       main section p {
         color: #fff;
       }
@@ -129,15 +147,17 @@
     }
     #video {
       height: 400px;
-      width: 50%;
+      width:95%;
+      justify-content: center;
     }
+   
    
    
     #divnos {
       margin-top: 200px;
       margin-bottom: 200px;
-      width: 350px;
-      font-size: 10px;
+      width: 310px;
+      font-size: 12px;
     }
     #publicidad {
       height: 400px;
@@ -162,15 +182,38 @@
     .imgprod {
       min-width: 80px;
     }
+
+    .producto{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+
     .redes {
       width: 10px;
       height: 10px;
     }
+
+    div span {
+     display: none; 
+    }
   
     #donde{
-      height:100px ;
-      width: 200px;
-      font-size: 16px;
+      align-self: center;
+      justify-self: center;
+      display: block; 
+      font-size: 18px;
+      height: 80px; 
+      width: 250px;
+      align-items: center;
+      justify-items: center; 
+      background-color: yellow;
+      text-decoration: none;
+      margin-bottom: 200px;
+    }
+
+    #p{
+      padding: 25px; 
     }
 
     .logo{
