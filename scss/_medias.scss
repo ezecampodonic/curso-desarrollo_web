@@ -1,5 +1,5 @@
 
-@media (min-device-width: 640px) {
+@media (min-device-width: 701px) {
     header img{
      height: 700px; 
     }  
@@ -47,10 +47,14 @@
      width: 220px;
     }
 
+    #isection{
+     font-size: 10px; 
+     color: white;
+    }
 
   }
 
-  @media (max-device-width: 480px) {
+  @media (max-device-width: 700px) {
     body {
         header{
          
@@ -88,8 +92,9 @@
           width: 50px;
          }
           input {
-           width: 150px;
+           width: 140px;
            height: 20px;
+           font-size: 8px;
           }
          
          section a button {
@@ -224,9 +229,9 @@
      main form, form h2, main form section p, main form section a button, main form button {
       font-size: 13px;
      }
-     main form section p{
-      font-size: 20px;
-      color: white;
+    
+     #isection{
+      font-size: 12px;
      }
     
   }

@@ -297,7 +297,7 @@ main article {
 .fondoform {
   background-color: rgba(45, 27, 3, 0.601);
   margin: 8% 25%;
-  height: 70%;
+  height: 50%;
 }
 
 .iniciobot {
@@ -318,7 +318,7 @@ main form button {
 }
 
 main section p {
-  font-size: 50px;
+  font-size: 30px;
 }
 main section a button {
   width: 200px;
@@ -445,11 +445,10 @@ input {
 section {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
-  margin-bottom: 200px;
   width: 100%;
   height: 100%;
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 section div {
   margin-left: 30px;
@@ -469,7 +468,7 @@ section div {
   height: 600px;
 }
 
-@media (min-device-width: 640px) {
+@media (min-device-width: 701px) {
   header img {
     height: 700px;
   }
@@ -509,8 +508,12 @@ section div {
     height: 75px;
     width: 220px;
   }
+  #isection {
+    font-size: 10px;
+    color: white;
+  }
 }
-@media (max-device-width: 480px) {
+@media (max-device-width: 700px) {
   body header .carrusel-contenedor {
     height: 400px;
     width: 80%;
@@ -541,8 +544,9 @@ section div {
     width: 50px;
   }
   body main form input {
-    width: 150px;
+    width: 140px;
     height: 20px;
+    font-size: 8px;
   }
   body main form section a button {
     height: 20px;
@@ -654,9 +658,8 @@ section div {
   main form, form h2, main form section p, main form section a button, main form button {
     font-size: 13px;
   }
-  main form section p {
-    font-size: 20px;
-    color: white;
+  #isection {
+    font-size: 12px;
   }
 }
 
