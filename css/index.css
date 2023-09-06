@@ -88,13 +88,8 @@ main {
 
 #homemds {
   height: 100%;
-  margin-left: 50px;
+  width: 90%;
   padding: 30px;
-  width: 700px;
-  height: 600px;
-}
-
-.borde {
   border: 4px;
   border-style: ridge;
   border-radius: 10px;
@@ -106,6 +101,9 @@ main {
   align-content: flex-start;
   width: 700px;
   height: 600px;
+}
+#video #video::hover {
+  height: 700px;
 }
 
 main article {

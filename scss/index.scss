@@ -91,25 +91,23 @@
   
   #homemds {
     height: 100%;
-    margin-left: 50px;
+    width: 90%;
     padding: 30px;
-    width: 700px;
-    height: 600px;
-  }
-  
-  .borde {
     border: 4px;
     border-style: ridge;
     border-radius: 10px;
     background-color: rgba(165, 99, 42, 0.419);
   }
   
+
   #video {
     justify-content: flex-start;
     align-content: flex-start;
     width: 700px;
     height: 600px;
-    
+     #video::hover{
+      height: 700px;
+     }
   }
   
   main article {
