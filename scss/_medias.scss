@@ -77,34 +77,35 @@
         }
       }
        main article{
-        span {
-        display: none;
-      }
+      //   span {
+      //   display: none;
+      // }
        button {
         font-size: 8px;
       }
     } 
+
       main form {
         margin-top: 100px!important;
         margin-bottom: 100px!important;
          button {
           height: 50px;
-          width: 50px;
+          width: 90%;
          }
           input {
-           width: 140px;
+           width: 80%;
            height: 20px;
            font-size: 8px;
           }
-         
+
          section a button {
           height: 20px;
-          width: 150px;
+          width:100%;
           font-size: 12px;
          }
           section input{
             height: 20px;
-            width: 150px;
+            width: 80%;
             font-size: 6px;
           }
       }
@@ -120,7 +121,7 @@
         width: 15px;
        }
        button {
-        width: 80px;
+        width: 80%;
        }
       }
       footer {
@@ -152,18 +153,43 @@
     }
     #video {
       height: 400px;
-      width:95%;
+      width:90%;
       justify-content: center;
     }
    
    
    
     #divnos {
-      margin-top: 200px;
-      margin-bottom: 200px;
-      width: 310px;
+     align-items: center;
+     justify-items: center;
+      padding: 5px;
+      width:90%;
       font-size: 12px;
     }
+
+    main aside a{
+     display: none; 
+    }
+
+    #cspan{
+     height:300px ;
+     width: 0.5vw; 
+     padding: 25px;
+     align-self:center ;
+     justify-self: center;
+    }
+
+    #maincart {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 35px 300px 50px 200px;
+    grid-template-areas:
+     "h2 h2 h2" 
+     "none span none" 
+     ". none ."
+     ". button ." 
+     ". none .";
+    }
+
     #publicidad {
       height: 400px;
       width: 60px;
@@ -176,7 +202,7 @@
    
     .iniciobot {
       height: 20px;
-      width: 150px;
+      width: 90%;
       font-size: 10px;
     }
 
@@ -184,14 +210,45 @@
     #fondo {
       height: 450px;
     }
-    .imgprod {
-      min-width: 80px;
-    }
 
     .producto{
      display: flex;
-     flex-direction: row;
-     justify-content: space-between;
+     flex-direction: column;
+     justify-self: center;
+     align-self: center;
+     width: 290px;
+     height: 450px;
+      h3{
+       align-self: center;
+       font-size: 12px;
+       width: 120px;
+      } 
+      img{
+        align-self: center;
+        justify-self: center;
+        height: 100px;
+        width: 120px;
+      }
+      button{
+       align-self: flex-end; 
+       justify-self: flex-end;
+       z-index: 1;
+       height: 25px;
+       margin-top: -70px;
+      }
+      p{
+       align-self: center; 
+       font-size: 10px;
+       margin-top: 5px;
+       width: 120px;
+       
+      }
+      span{
+       font-size: 7px; 
+       align-self: center;
+       margin-top: 0px;
+       width: 120px;
+      }
     }
 
     .redes {
@@ -214,7 +271,7 @@
       justify-items: center; 
       background-color: yellow;
       text-decoration: none;
-      margin-bottom: 200px;
+      margin-bottom: 100px;
     }
 
     #p{

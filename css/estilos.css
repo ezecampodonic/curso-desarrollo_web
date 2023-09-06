@@ -108,14 +108,13 @@ footer .espaciadomedio {
   display: grid;
   width: 100%;
   height: 100%;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 35px 300px 50px 200px;
-  grid-template-areas: "h2 h2 h2" ". span aside" ". button aside" ". none .";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5% 45% 20% 30%;
+  grid-template-areas: "h2 h2 h2" ". span  aside" ". button aside" ". none .";
 }
 
 #maincart > h2 {
   grid-area: h2;
-  height: 35px;
 }
 
 #maincart > span {
@@ -124,17 +123,24 @@ footer .espaciadomedio {
 
 #maincart > a {
   grid-area: button;
+  padding: 20px;
 }
 
 #maincart > aside {
   grid-area: aside;
 }
 
+#publi {
+  align-items: center;
+  justify-self: center;
+  margin-top: 70px;
+}
+
 #publicidad {
   height: 600px;
   width: 300px;
-  margin-left: 30px;
-  margin-top: 80px;
+  align-self: center;
+  justify-self: center;
 }
 
 #cartboton {
@@ -152,6 +158,8 @@ footer .espaciadomedio {
   margin-top: 20px;
   margin-left: 20px;
   font-weight: bolder;
+  width: 300px;
+  padding: 20px;
 }
 
 /* home */
@@ -330,12 +338,13 @@ main section a button {
 
 /* nosotros */
 #divnos {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   align-self: center;
   color: antiquewhite;
   background-color: rgba(222, 108, 9, 0.713);
-  width: 900px;
+  width: 90%;
+  padding: 50px;
 }
 
 .negrita {
@@ -373,10 +382,12 @@ main section a button {
   margin-top: 5px;
   width: 100%;
   max-height: 250px;
-  margin-right: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
   box-shadow: 0 0 10px;
+}
+.producto img {
+  width: 200px;
 }
 
 .botonprod {
@@ -529,9 +540,6 @@ section div {
   body header nav ul li a {
     font-size: 10px;
   }
-  body main article span {
-    display: none;
-  }
   body main article button {
     font-size: 8px;
   }
@@ -541,21 +549,21 @@ section div {
   }
   body main form button {
     height: 50px;
-    width: 50px;
+    width: 90%;
   }
   body main form input {
-    width: 140px;
+    width: 80%;
     height: 20px;
     font-size: 8px;
   }
   body main form section a button {
     height: 20px;
-    width: 150px;
+    width: 100%;
     font-size: 12px;
   }
   body main form section input {
     height: 20px;
-    width: 150px;
+    width: 80%;
     font-size: 6px;
   }
   body main section p {
@@ -567,7 +575,7 @@ section div {
     width: 15px;
   }
   body article button {
-    width: 80px;
+    width: 80%;
   }
   body footer {
     font-size: 10px;
@@ -595,14 +603,30 @@ section div {
   }
   #video {
     height: 400px;
-    width: 95%;
+    width: 90%;
     justify-content: center;
   }
   #divnos {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    width: 310px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+    width: 90%;
     font-size: 12px;
+  }
+  main aside a {
+    display: none;
+  }
+  #cspan {
+    height: 300px;
+    width: 0.5vw;
+    padding: 25px;
+    align-self: center;
+    justify-self: center;
+  }
+  #maincart {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 35px 300px 50px 200px;
+    grid-template-areas: "h2 h2 h2" "none span none" ". none ." ". button ." ". none .";
   }
   #publicidad {
     height: 400px;
@@ -614,19 +638,49 @@ section div {
   }
   .iniciobot {
     height: 20px;
-    width: 150px;
+    width: 90%;
     font-size: 10px;
   }
   #fondo {
     height: 450px;
   }
-  .imgprod {
-    min-width: 80px;
-  }
   .producto {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    width: 290px;
+    height: 450px;
+  }
+  .producto h3 {
+    align-self: center;
+    font-size: 12px;
+    width: 120px;
+  }
+  .producto img {
+    align-self: center;
+    justify-self: center;
+    height: 100px;
+    width: 120px;
+  }
+  .producto button {
+    align-self: flex-end;
+    justify-self: flex-end;
+    z-index: 1;
+    height: 25px;
+    margin-top: -70px;
+  }
+  .producto p {
+    align-self: center;
+    font-size: 10px;
+    margin-top: 5px;
+    width: 120px;
+  }
+  .producto span {
+    font-size: 7px;
+    align-self: center;
+    margin-top: 0px;
+    width: 120px;
   }
   .redes {
     width: 10px;
@@ -646,7 +700,7 @@ section div {
     justify-items: center;
     background-color: yellow;
     text-decoration: none;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   #p {
     padding: 25px;
